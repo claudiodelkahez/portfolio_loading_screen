@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #292929;
+    color: #fff;
+}
+.loader-container {
+    background-color: #292929;
+    color: #fff;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+h1 {
+    font-size: 9rem;
+    font-family: 'Gloock', serif;
+    text-align: right;
+    position: absolute;
+    bottom: .2em;
+    right: .4em;
+    text-shadow: rgb(9, 9, 9) 5px 5px;
+}
